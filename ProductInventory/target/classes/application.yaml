@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ProductInventory
+  datasource:
+    url: <TO_BE_PROVIDED>
+    username: <TO_BE_PROVIDED>
+    password: <TO_BE_PROVIDED>
+    driver-class-name: <TO_BE_PROVIDED>
+  jpa:
+    hibernate:
+      ddl-auto: update
+    
+server:
+  servlet:
+    context-path: /application/p8/productInventory
+    
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+    path: /swaggerDoc
+  
+    
+
